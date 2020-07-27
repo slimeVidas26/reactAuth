@@ -1,0 +1,77 @@
+/*
+ * # Mybnb - 1.0.0
+ * http://www.seventhqueen.com/
+ *
+ *
+ * Copyright 2012 SeventhQueen
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+/*******************************
+        Footer
+*******************************/
+#footer .footer-top {
+  padding-bottom: 20px;
+}
+#footer .footer-top > .ui.grid:first-child > .row {
+  border-top: 1px solid #D4D4D4;
+  padding-top: 45px;
+}
+#footer .footer-top .ui.column {
+  padding-bottom: 40px;
+}
+#footer .footer-top.borderless-sq > .ui.grid:first-child > .row {
+  border: none;
+}
+#footer .footer-bottom {
+  background: #252B33;
+  padding: 30px 0 0 0;
+}
+#footer h5 {
+  font-weight: 700;
+}
+#footer .list-default-sq li {
+  padding: 0.1em 0;
+}
+#footer .list-default-sq li a {
+  font-size: 0.875em;
+  color: rgba(38, 38, 38, 0.7);
+  letter-spacing: 0;
+  -webkit-transition: text-decoration 0.3s ease-out;
+  -moz-transition: text-decoration 0.3s ease-out;
+  -o-transition: text-decoration 0.3s ease-out;
+  -ms-transition: text-decoration 0.3s ease-out;
+  transition: text-decoration 0.3s ease-out;
+}
+#footer .list-default-sq li a:hover,
+#footer .list-default-sq li a:focus {
+  text-decoration: underline;
+}
+#footer p {
+  color: rgba(38, 38, 38, 0.7);
+  font-size: 0.875em;
+}
+#footer .footer-logo {
+  margin-bottom: 25px;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.5);
+}
+#footer .footer-logo img {
+  height: 37px;
+  width: auto;
+  margin-right: 25px;
+}
+#footer .social-links-sq li {
+  margin-right: 15px;
+}
+#footer .social-links-sq li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+#footer .social-links-sq li a:hover {
+  color: #F0114C;
+}
+#footer .social-links-sq li a i {
+  font-size: 16px;
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,62 @@
+/*
+ * # Mybnb - 1.0.0
+ * http://www.seventhqueen.com/
+ *
+ *
+ * Copyright 2012 SeventhQueen
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+/*******************************
+          Logo
+*******************************/
+.logo,
+.logo.item {
+  display: block;
+  height: 44px;
+  line-height: 44px;
+  background: transparent;
+  color: #888888;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0 0;
+  /* Logo Image */
+}
+.logo .icon,
+.logo.item .icon {
+  font-size: 24px;
+  margin: 0;
+}
+.logo img,
+.logo.item img {
+  width: auto;
+  height: 100%;
+  vertical-align: top;
+  border: 0;
+}
+.logo.rounded-sq,
+.logo.item.rounded-sq {
+  border-radius: 10px;
+}
+.logo.square-sq,
+.logo.item.square-sq {
+  width: 44px;
+  text-align: center;
+}
+.logo-transparent {
+  display: none;
+}
+.header-transparent.is-transparent .logo {
+  background: transparent;
+}
+.header-transparent.is-transparent .logo .logo-transparent + img {
+  display: none;
+  opacity: 0;
+}
+.header-transparent.is-transparent .logo .logo-transparent {
+  display: inline-block;
+  opacity: 1;
+}
+/*# sourceMappingURL=logo.css.map */
